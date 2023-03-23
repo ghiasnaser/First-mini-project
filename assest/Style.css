@@ -2,10 +2,6 @@
     padding: 0;
     margin: 0;
 }
-a{
-    color: white;
-    text-decoration: none;
-}
 
 header{
     position: fixed;
@@ -14,6 +10,25 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     
 }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    float: left;
+    padding: 16px;
+    color:red
+    
+  }
+a{
+    color: white;
+    text-decoration: none;
+}
+
 img{
     display: block;
     margin-left: auto;
@@ -56,20 +71,6 @@ footer,header{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    margin-left: 80%;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-li {
-    float: left;
-    padding: 16px;
-    
-  }
 .bar{
     background-color: blanchedalmond;
     position: relative;
